@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DictionaryDialog</class>
+ <widget class="QDialog" name="DictionaryDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>783</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>字典设置</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_Readbox">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMaximumSize</enum>
+     </property>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Maximum</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_Kx">
+         <property name="text">
+          <string>控显Config路径:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_ConfigPath"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_Read">
+         <property name="text">
+          <string>读取</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Maximum</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>列车信号机</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_TrainSingal"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>调车信号机</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_ShuntingSingal"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>列车按钮</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_TrainButton"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>调车按钮</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_ShuntingButton"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>道岔</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_TrunOut">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>500</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>带动道岔(需要带{})</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_SpSwitch"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>区段</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_Track">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>500</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>超限条件(需要带&lt;&gt;)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_SpSection"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>其他联锁</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_OtherLockChoice">
+              <item>
+               <property name="text">
+                <string>拼音简称</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>拼音全称</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>中文</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_OtherLock"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="text">
+               <string>灯显示</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_LightSet">
+              <item>
+               <property name="text">
+                <string>标准</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>含中文</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_SingalView"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="Button_Test">
+         <property name="text">
+          <string>fastTest</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_Manul">
+         <property name="text">
+          <string>人工填写模式</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_ProductButton">
+         <property name="text">
+          <string>生成按钮</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_PointSingalCondition">
+         <item>
+          <property name="text">
+           <string>道岔条件双动</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>道岔条件单动</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>条件道岔单双混合</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_useSpSwitch">
+         <property name="text">
+          <string>使用指定带动道岔</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_SpSection">
+         <property name="text">
+          <string>使用指定超限条件</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_SaveSelf">
+         <property name="text">
+          <string>应用</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_ok">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_cancel">
+         <property name="text">
+          <string>取消</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Button_ok</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>899</x>
+     <y>742</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>233</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Button_cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>899</x>
+     <y>771</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>197</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Button_ok</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryDialog</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>899</x>
+     <y>742</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>391</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_useSpSwitch</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_9</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>795</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>458</x>
+     <y>598</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_SpSection</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_10</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>864</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>606</x>
+     <y>599</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_useSpSwitch</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>textEdit_SpSwitch</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>815</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>661</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_SpSection</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>textEdit_SpSection</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>820</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>678</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

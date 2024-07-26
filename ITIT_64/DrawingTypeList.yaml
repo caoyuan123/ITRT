@@ -1,0 +1,780 @@
+%YAML:1.0
+---
+DrawingTypes:
+   -
+      Type: 1
+      DesignInstitute: "铁一院"
+      LineName: "侯马铁路"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 1.0100000000000000e+00
+         FontCompressRatio: 6.9999999999999996e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.0697700000000001e+00
+         GlussRoit: 3
+         ErodeRoit: 0
+         PowRoit: 5
+         CompareRoit: 8.1999999999999995e-01
+      stdWordHeight: 46
+      stdWordWidth: 18
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "测试中心"
+      LineName: "C3测试标准线"
+      FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.
+         GlussRoit: 1
+         ErodeRoit: 1
+         PowRoit: 1
+         CompareRoit: 0.
+      stdWordHeight: 0
+      stdWordWidth: 18
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "中铁设计"
+      LineName: "阳大线"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.8000000000000000e-01
+         FontCompressRatio: 7.2999999999999998e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.8372100000000000e+00
+         GlussRoit: 5
+         ErodeRoit: 0
+         PowRoit: 5
+         CompareRoit: 4.5029999999999998e-01
+      stdWordHeight: 72
+      stdWordWidth: 36
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "中铁二院"
+      LineName: "鲁南白图"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 0
+         FontSpacing: 9.7999999999999998e-01
+         FontCompressRatio: 8.4999999999999998e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2558100000000001e+00
+         GlussRoit: -1
+         ErodeRoit: 0
+         PowRoit: -3
+         CompareRoit: 2.5000000000000000e-01
+      stdWordHeight: 45
+      stdWordWidth: 24
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "中铁二院"
+      LineName: "鲁南白图2"
+      FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 0
+         FontSpacing: 9.6999999999999997e-01
+         FontCompressRatio: 7.6000000000000001e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 9.3999999999999995e-01
+         GlussRoit: 3
+         ErodeRoit: 0
+         PowRoit: -2
+         CompareRoit: 2.2283800000000001e-01
+      stdWordHeight: 23
+      stdWordWidth: 12
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "中铁四院"
+      LineName: "江村"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.2999999999999996e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.7674399999999999e+00
+         GlussRoit: 5
+         ErodeRoit: 0
+         PowRoit: 3
+         CompareRoit: 1.7162500000000000e-01
+      stdWordHeight: 69
+      stdWordWidth: 32
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "铁一院"
+      LineName: "侯马2"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.9999999999999991e-01
+         FontCompressRatio: 7.6000000000000001e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.0700000000000001e+00
+         GlussRoit: 3
+         ErodeRoit: 0
+         PowRoit: 5
+         CompareRoit: 6.0891348123550415e-01
+      stdWordHeight: 38
+      stdWordWidth: 13
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "中铁"
+      LineName: "莞惠"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 7.8000000000000003e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 9.4999999999999996e-01
+         GlussRoit: 5
+         ErodeRoit: 0
+         PowRoit: -1
+         CompareRoit: 3.4030967950820923e-01
+      stdWordHeight: 34
+      stdWordWidth: 11
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "中铁设计"
+      LineName: "武襄线"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.4999999999999998e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 9.4999999999999996e-01
+         GlussRoit: 3
+         ErodeRoit: 0
+         PowRoit: 3
+         CompareRoit: 4.0594467520713806e-01
+      stdWordHeight: 33
+      stdWordWidth: 11
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "铁四院"
+      LineName: "京广"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 7.9000000000000004e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2558100000000001e+00
+         GlussRoit: 3
+         ErodeRoit: 1
+         PowRoit: 4
+         CompareRoit: 2.6336300000000001e-01
+      stdWordHeight: 47
+      stdWordWidth: 16
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 0
+      DesignInstitute: "铁四院"
+      LineName: "京广实验"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.3999999999999997e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2000000000000000e+00
+         GlussRoit: 5
+         ErodeRoit: 1
+         PowRoit: 3
+         CompareRoit: 4.5118945837020874e-01
+      stdWordHeight: 45
+      stdWordWidth: 15
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: "铁四院"
+      LineName: "京广实验2"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.3999999999999997e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2000000000000000e+00
+         GlussRoit: 5
+         ErodeRoit: 1
+         PowRoit: 3
+         CompareRoit: 8.0000000000000004e-01
+      stdWordHeight: 45
+      stdWordWidth: 15
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: "铁四院"
+      LineName: "京广实验3"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 7.8000000000000003e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2500000000000000e+00
+         GlussRoit: 5
+         ErodeRoit: 1
+         PowRoit: 2
+         CompareRoit: 6.3390000000000002e-01
+      stdWordHeight: 45
+      stdWordWidth: 15
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: zt
+      LineName: dcg
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 9.3999999999999995e-01
+         FontCompressRatio: 7.2999999999999998e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.3999999999999999e+00
+         GlussRoit: 3
+         ErodeRoit: 1
+         PowRoit: -2
+         CompareRoit: 9.2557883657164552e-01
+      stdWordHeight: 52
+      stdWordWidth: 17
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: T4Y
+      LineName: "广州东"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 9.8999999999999999e-01
+         FontCompressRatio: 6.9999999999999996e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.3500000000000001e+00
+         GlussRoit: 3
+         ErodeRoit: 0
+         PowRoit: 5
+         CompareRoit: 6.5925981370234155e-01
+      stdWordHeight: 50
+      stdWordWidth: 17
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: T4
+      LineName: "白马"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 9.2000000000000004e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2600000000000000e+00
+         GlussRoit: 3
+         ErodeRoit: 1
+         PowRoit: -1
+         CompareRoit: 5.0140174645530777e-01
+      stdWordHeight: 46
+      stdWordWidth: 15
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: t4Y
+      LineName: "江村编组下"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.1999999999999995e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2300000000000000e+00
+         GlussRoit: 3
+         ErodeRoit: 2
+         PowRoit: 2
+         CompareRoit: 4.9828872251444167e-01
+      stdWordHeight: 46
+      stdWordWidth: 15
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: jcbz
+      LineName: jcbz
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 8.7000000000000000e-01
+         FontCompressRatio: 6.5000000000000002e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.1899999999999999e+00
+         GlussRoit: 5
+         ErodeRoit: 0
+         PowRoit: 3
+         CompareRoit: 9.2133652459750692e-01
+      stdWordHeight: 43
+      stdWordWidth: 14
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: "铁4"
+      LineName: "流芳普速"
+      FontProprety:
+         FontName: txt
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 7.9000000000000004e-01
+         FontCompressRatio: 6.7000000000000004e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.2300000000000000e+00
+         GlussRoit: 3
+         ErodeRoit: 1
+         PowRoit: 5
+         CompareRoit: 5.1031956543109658e-01
+      stdWordHeight: 46
+      stdWordWidth: 15
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: "铁二成都"
+      LineName: "桦南"
+      FontProprety:
+         FontName: "鍗庢枃缁嗛粦"
+         FontNum: 36
+         Bold: 1
+         FontSpacing: 9.3000000000000005e-01
+         FontCompressRatio: 8.3999999999999997e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.0900000000000001e+00
+         GlussRoit: 3
+         ErodeRoit: 0
+         PowRoit: -1
+         CompareRoit: 4.5856832773869982e-01
+      stdWordHeight: 40
+      stdWordWidth: 13
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []
+   -
+      Type: 1
+      DesignInstitute: "铁二成都"
+      LineName: "桦南2"
+      FontProprety:
+         FontName: Utsaah
+         FontNum: 36
+         Bold: 0
+         FontSpacing: 1.0900000000000001e+00
+         FontCompressRatio: 8.2999999999999996e-01
+         MarginX: 0
+         MarginY: 0
+      small_FontProprety:
+         FontName: txt
+         FontNum: 28
+         Bold: 1
+         FontSpacing: 1.
+         FontCompressRatio: 1.
+         MarginX: 0
+         MarginY: 0
+      GraphicTransTemp:
+         Roit: 1.5400000000000000e+00
+         GlussRoit: 3
+         ErodeRoit: 0
+         PowRoit: 2
+         CompareRoit: 2.5009018692260909e-01
+      stdWordHeight: 39
+      stdWordWidth: 13
+      TableEditon: 1992
+      LineNums: 36
+      WordHightRoit: 5.0000000000000003e-02
+      LineHightRoit: 5.0000000000000003e-02
+      RowNum: 10
+      HeaderTable:
+         []
+      HeaderTableRoit:
+         []

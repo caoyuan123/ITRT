@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>肖登宇</author>
+ <class>ITITClass</class>
+ <widget class="QMainWindow" name="ITITClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1047</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>联锁表识别工具</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../itit_64.qrc">
+    <normaloff>:/ITIT/Resources/pic/p111/48.png</normaloff>:/ITIT/Resources/pic/p111/48.png</iconset>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QMdiArea" name="mdiArea">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="viewMode">
+       <enum>QMdiArea::SubWindowView</enum>
+      </property>
+      <widget class="QWidget" name="widget">
+       <property name="windowTitle">
+        <string/>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1047</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_NewProject"/>
+    <addaction name="action_CloseProject"/>
+   </widget>
+   <widget class="QMenu" name="menu_dictionary">
+    <property name="title">
+     <string>字典字体</string>
+    </property>
+    <addaction name="action_Dictionary"/>
+    <addaction name="action_FontSet"/>
+   </widget>
+   <widget class="QMenu" name="menu_about">
+    <property name="title">
+     <string>其他</string>
+    </property>
+    <addaction name="action_Abort"/>
+   </widget>
+   <widget class="QMenu" name="menu_Set">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="action_ProjectSetting"/>
+    <addaction name="action_ToolsSetting"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_dictionary"/>
+   <addaction name="menu_Set"/>
+   <addaction name="menu_about"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget_3">
+   <property name="minimumSize">
+    <size>
+     <width>220</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>300</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <property name="features">
+    <set>QDockWidget::NoDockWidgetFeatures</set>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string extracomment="111"/>
+       </property>
+       <property name="whatsThis">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>220</width>
+          <height>776</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>98</width>
+     <height>108</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>65535</width>
+     <height>65535</height>
+    </size>
+   </property>
+   <property name="features">
+    <set>QDockWidget::NoDockWidgetFeatures</set>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QFrame" name="frame_MiniWindow">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>65535</width>
+         <height>65535</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="verticalLayout_miniWindow"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Confirm">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>预处理向导</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>166</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_testSave">
+       <property name="text">
+        <string>调试</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Correct"/>
+   <addaction name="action_FliterMode"/>
+   <addaction name="action_Line"/>
+   <addaction name="action_Choice"/>
+   <addaction name="separator"/>
+   <addaction name="action_Begin"/>
+   <addaction name="action_Output"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_RoiMode"/>
+   <addaction name="action_ZoomOut"/>
+   <addaction name="action_ZommIn"/>
+  </widget>
+  <action name="action_NewProject">
+   <property name="text">
+    <string>新建项目</string>
+   </property>
+  </action>
+  <action name="action_CloseProject">
+   <property name="text">
+    <string>关闭项目</string>
+   </property>
+  </action>
+  <action name="action_DwBk_Wizard">
+   <property name="text">
+    <string>图纸册初始化向导</string>
+   </property>
+  </action>
+  <action name="action_DwSt_Wizard">
+   <property name="text">
+    <string>单页识别初始化向导</string>
+   </property>
+  </action>
+  <action name="action_RoiMode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p111/10.png</normaloff>:/ITIT/Resources/pic/p111/10.png</iconset>
+   </property>
+   <property name="text">
+    <string>区域放大模式</string>
+   </property>
+  </action>
+  <action name="action_FliterMode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p112/61.png</normaloff>
+     <normalon>:/ITIT/Resources/pic/p111/61.png</normalon>:/ITIT/Resources/pic/p112/61.png</iconset>
+   </property>
+   <property name="text">
+    <string>滤波处理</string>
+   </property>
+  </action>
+  <action name="action_ZoomOut">
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p112/106.png</normaloff>
+     <normalon>:/ITIT/Resources/pic/p111/106.png</normalon>:/ITIT/Resources/pic/p112/106.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="action_ZommIn">
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p111/107.png</normaloff>:/ITIT/Resources/pic/p111/107.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="action_Correct">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p112/26.png</normaloff>
+     <normalon>:/ITIT/Resources/pic/p111/26.png</normalon>:/ITIT/Resources/pic/p112/26.png</iconset>
+   </property>
+   <property name="text">
+    <string>矫正</string>
+   </property>
+   <property name="toolTip">
+    <string>矫正</string>
+   </property>
+  </action>
+  <action name="action_Line">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p112/2.png</normaloff>
+     <normalon>:/ITIT/Resources/pic/p111/2.png</normalon>:/ITIT/Resources/pic/p112/2.png</iconset>
+   </property>
+   <property name="text">
+    <string>分线</string>
+   </property>
+   <property name="toolTip">
+    <string>分线</string>
+   </property>
+  </action>
+  <action name="action_Choice">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p112/130.png</normaloff>
+     <normalon>:/ITIT/Resources/pic/p111/130.png</normalon>:/ITIT/Resources/pic/p112/130.png</iconset>
+   </property>
+   <property name="text">
+    <string>区域选择</string>
+   </property>
+   <property name="toolTip">
+    <string>区域选择</string>
+   </property>
+  </action>
+  <action name="action_Begin">
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p112/98.png</normaloff>
+     <normalon>:/ITIT/Resources/pic/p111/98.png</normalon>:/ITIT/Resources/pic/p112/98.png</iconset>
+   </property>
+   <property name="text">
+    <string>Begin</string>
+   </property>
+   <property name="toolTip">
+    <string>开始识别</string>
+   </property>
+  </action>
+  <action name="action_WizardMode">
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p111/33.png</normaloff>:/ITIT/Resources/pic/p111/33.png</iconset>
+   </property>
+   <property name="text">
+    <string>WizardMode</string>
+   </property>
+   <property name="toolTip">
+    <string>向导模式</string>
+   </property>
+  </action>
+  <action name="action_Output">
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p112/19.png</normaloff>
+     <normalon>:/ITIT/Resources/pic/p111/19.png</normalon>:/ITIT/Resources/pic/p112/19.png</iconset>
+   </property>
+   <property name="text">
+    <string>输出表格</string>
+   </property>
+   <property name="toolTip">
+    <string>输出表格</string>
+   </property>
+  </action>
+  <action name="action_ProjectSetting">
+   <property name="text">
+    <string>项目设置</string>
+   </property>
+   <property name="toolTip">
+    <string>项目设置</string>
+   </property>
+  </action>
+  <action name="action_ToolsSetting">
+   <property name="text">
+    <string>工具设置</string>
+   </property>
+  </action>
+  <action name="action_Accept">
+   <property name="icon">
+    <iconset resource="../itit_64.qrc">
+     <normaloff>:/ITIT/Resources/pic/p111/104.png</normaloff>:/ITIT/Resources/pic/p111/104.png</iconset>
+   </property>
+   <property name="text">
+    <string>Accept</string>
+   </property>
+   <property name="toolTip">
+    <string>确认</string>
+   </property>
+  </action>
+  <action name="action_Dictionary">
+   <property name="text">
+    <string>字典设置</string>
+   </property>
+  </action>
+  <action name="action_FontSet">
+   <property name="text">
+    <string>字体设置</string>
+   </property>
+  </action>
+  <action name="action_Abort">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../itit_64.qrc"/>
+ </resources>
+ <connections/>
+</ui>

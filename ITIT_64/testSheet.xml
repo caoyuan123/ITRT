@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Project><readPath>"E:\ITIT_project\打包范例\通号南站"</readPath>
+  <savePath>"E:\ITIT_project\打包范例\通号南站"</savePath>
+  <StationName>""</StationName>
+  <Dictionary>
+    <Name>"独立按钮名称"</Name>
+    <IdentyButton></IdentyButton>
+    <Name>"列车信号机名称"</Name>
+    <TrainSignal>
+      S1 SII S3 S4 SV SVI S7 S8 S9 S11 S12 SX SZ2 X1 XII X3 X4 XV XVI X7
+      X8 X9 X11 X12 XX SZ6 XL1 STF XBF XB ST SL2 S SF X XF</TrainSignal>
+    <Name>"调车信号机名称"</Name>
+    <ShuntingSignal>
+      D1 D3 D5 D7 D9 D11 D13 D15 D17 D19 D21 D23 D25 D27 D29 D31 D33 D35
+      D37 D39 D41 D43 D45 D2 D4 D6 D8 D10 D12 D14 D16 D18 D20 D22 D24
+      D26 D28 D30 D32 D34 D36 D38 D40 D42 D44 D46 D48 D47 D49</ShuntingSignal>
+    <Name>"列车按钮名称"</Name>
+    <TrainButton>
+      XL1LA XL5LA STFLA XBFLA XBLA STLA SL2LA SNLA STFTA STTA SLA SFLA
+      "S TA" SFTA SZBLZA XLA XFLA XZLA XZNLA S1LA SIILA S3LA S4LA SVLA
+      SVILA S7LA S8LA S9LA S11LA S12LA SXLA SZ2LA SZ4LA X1LA XIILA X3LA
+      X4LA XVLA XVILA X7LA X8LA X9LA X11LA X12LA XXLA SZBLA SZ6LA D5LZA</TrainButton>
+    <Name>"调车按钮名称"</Name>
+    <ShuntingButton>
+      D1A D3A D5A D7A D9A D11A D13A D15A D17A D19A D21A D23A D25A D27A
+      D29A D31A D33A D35A D37A D39A D41A D43A D45A S1DA SIIDA S3DA S4DA
+      SVDA SVIDA S7DA S8DA S9DA S11DA S12DA SXDA XDZA B1A D2A D4A D6A
+      D8A D10A D12A D14A D16A D18A D20A D22A D24A D26A D28A D30A D32A
+      D34A D36A D38A D40A D42A D44A D46A D48A X1DA XIIDA X3DA X4DA XVDA
+      XVIDA X7DA X8DA X9DA X11DA X12DA XXDA B2A B4A B6A B8A D47A D49A
+      D51A XFDZA XLA-old</ShuntingButton>
+    <Name>"道岔名称"</Name>
+    <Turnout>
+      "3" "5" "7" "9" "11" "13" "15" "17" "19" "21" "23" "25" "27" "29"
+      "31" "33" "35" "37" "39" "41" "43" "45" "47" "49" "51" "53" "55"
+      "&lt;57&gt;59" "61&lt;63&gt;" "65" "67" "69" "71" "73" "75" W1 W2
+      "81" "2" "4" "6" "8" "&lt;10&gt;12" "14&lt;16&gt;" "&lt;18&gt;20"
+      "22&lt;24&gt;" "&lt;26&gt;28" "30&lt;32&gt;" "34" "&lt;36&gt;38"
+      "40&lt;42&gt;" "&lt;44&gt;46" "48&lt;50&gt;" "52" "54" "56"
+      "&lt;58&gt;60" "62&lt;64&gt;" "&lt;66&gt;68" "70&lt;72&gt;"
+      "&lt;74&gt;76" "78&lt;80&gt;" "82" "84" "&lt;86&gt;88"
+      "90&lt;92&gt;" "&lt;94&gt;96" "98&lt;100&gt;" "102"
+      "&lt;104&gt;106" "108&lt;110&gt;" "&lt;112&gt;114"
+      "116&lt;118&gt;" "120" "122" "124" "126" "128" "130" "132"
+      "&lt;134&gt;136" "138&lt;140&gt;" "142" J1 "87" "89" "91" "93" T1
+      T2</Turnout>
+    <Name>"区段名称"</Name>
+    <Track>
+      "1G" IIG "3G" "4G" VG VIG "7G" "8G" "9G" XG "11G" "12G" D1G XB1JG
+      XB2JG XB3JG D41G D45G SJG "5/89G" SZ2G "83DG" XHJG ST2JG ST3JG
+      "23/43G" "33/73G" D12G D14G D16G D44G D6G XBG "4/30G" "6/34G" IIBG
+      S1LQ_LG S2JG S3JG X1LQ X2LQ X3LQ "2/126G" "54/142G" "54/56G" D47G
+      "3/25G" S1LQ S2LQ S3LQ S4LQ S5LQ S6LQ S7LQ X7JG X6JG X5JG X4JG
+      X3JG X2JG X1JG SF S ST X XF XB STF XBF "3DG" "5-19DG" "7DG"
+      "9-15DG" "11-13DG" "17-29DG" "21-27DG" "23-25DG" "31DG" "33DG"
+      "35-39DG" "37-41DG" "43-47DG" "45DG" "49-51DG" "53-67DG" "55DG"
+      "57-65DG" "69DG" "71DG" "73-75DG" W1DG W2DG "81DG" "2DG" "4DG"
+      "6DG" "8DG" "18-34DG" "26-124DG" "36-72DG" "44-52DG" "54DG" "56DG"
+      "58-64DG" "74-84DG" "82-120DG" "86-92DG" "94-102DG" "104-110DG"
+      "112-122DG" "126DG" "128-132DG" "130DG" "134-140DG" "142DG"
+      J1-16DG "87DG" "89DG" "91DG" "93DG"</Track>
+    <Name>"灯显示样式"</Name>
+    <SignalType></SignalType>
+    <Name>"其他联锁"</Name>
+    <OtherLocking></OtherLocking></Dictionary>
+  <DrawingType>
+    <DesignInstitute>""</DesignInstitute>
+    <FontProprety>
+      <FontName>txt</FontName>
+      <FontNum>28</FontNum>
+      <FontSpacing>1.</FontSpacing>
+      <FontCompressRatio>1.</FontCompressRatio>
+      <MarginX>0</MarginX>
+      <MarginY>0</MarginY></FontProprety>
+    <small_FontProprety>
+      <FontName>txt</FontName>
+      <FontNum>28</FontNum>
+      <FontSpacing>1.</FontSpacing>
+      <FontCompressRatio>1.</FontCompressRatio>
+      <MarginX>0</MarginX>
+      <MarginY>0</MarginY></small_FontProprety>
+    <GraphicTransTemp>
+      <Roit>1.</Roit>
+      <GlussRoit>1</GlussRoit>
+      <ErodeRoit>1</ErodeRoit>
+      <PowRoit>1</PowRoit></GraphicTransTemp>
+    <TableEditon>200</TableEditon>
+    <LineNums>36</LineNums>
+    <WordHightRoit>5.0000000000000003e-002</WordHightRoit>
+    <LineHightRoit>5.0000000000000003e-002</LineHightRoit>
+    <RowNum>10</RowNum>
+    <HeaderTable></HeaderTable>
+    <HeaderTableRoit></HeaderTableRoit></DrawingType>
+  <DrawingSheets><_>
+      <Str_ImgName>"1"</Str_ImgName>
+      <PageNum>0</PageNum>
+      <Vlines></Vlines>
+      <Hlines></Hlines>
+      <DrawingParts><_>
+          <step>1</step>
+          <PartNum>1</PartNum>
+          <StorageName>"1"</StorageName>
+          <ctlPoint>
+            </ctlPoint>
+          <effectiveArea0>
+            0 0</effectiveArea0>
+          <effectiveArea1>
+            0 0</effectiveArea1>
+          <effectiveArea2>
+            0 0</effectiveArea2>
+          <effectiveArea3>
+            0 0</effectiveArea3></_></DrawingParts>
+      <Rects></Rects>
+      <Zones></Zones></_>
+    <_>
+      <Str_ImgName>"2-1"</Str_ImgName>
+      <PageNum>1</PageNum>
+      <Vlines></Vlines>
+      <Hlines></Hlines>
+      <DrawingParts><_>
+          <step>1</step>
+          <PartNum>1</PartNum>
+          <StorageName>"2-1"</StorageName>
+          <ctlPoint>
+            </ctlPoint>
+          <effectiveArea0>
+            0 0</effectiveArea0>
+          <effectiveArea1>
+            0 0</effectiveArea1>
+          <effectiveArea2>
+            0 0</effectiveArea2>
+          <effectiveArea3>
+            0 0</effectiveArea3></_></DrawingParts>
+      <Rects></Rects>
+      <Zones></Zones></_>
+    <_>
+      <Str_ImgName>"2-2"</Str_ImgName>
+      <PageNum>2</PageNum>
+      <Vlines></Vlines>
+      <Hlines></Hlines>
+      <DrawingParts><_>
+          <step>1</step>
+          <PartNum>1</PartNum>
+          <StorageName>"2-2"</StorageName>
+          <ctlPoint>
+            </ctlPoint>
+          <effectiveArea0>
+            0 0</effectiveArea0>
+          <effectiveArea1>
+            0 0</effectiveArea1>
+          <effectiveArea2>
+            0 0</effectiveArea2>
+          <effectiveArea3>
+            0 0</effectiveArea3></_></DrawingParts>
+      <Rects></Rects>
+      <Zones></Zones></_>
+    <_>
+      <Str_ImgName>"4-1"</Str_ImgName>
+      <PageNum>3</PageNum>
+      <Vlines></Vlines>
+      <Hlines></Hlines>
+      <DrawingParts><_>
+          <step>1</step>
+          <PartNum>1</PartNum>
+          <StorageName>"4-1"</StorageName>
+          <ctlPoint>
+            </ctlPoint>
+          <effectiveArea0>
+            0 0</effectiveArea0>
+          <effectiveArea1>
+            0 0</effectiveArea1>
+          <effectiveArea2>
+            0 0</effectiveArea2>
+          <effectiveArea3>
+            0 0</effectiveArea3></_></DrawingParts>
+      <Rects></Rects>
+      <Zones></Zones></_></DrawingSheets></Project>
+</opencv_storage>
